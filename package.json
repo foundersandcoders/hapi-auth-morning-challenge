@@ -1,0 +1,27 @@
+{
+  "name": "hapi-auth-morning-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "hapi": "^16.1.1",
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsms90/hapi-auth-morning-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsms90/hapi-auth-morning-challenge/issues"
+  },
+  "homepage": "https://github.com/jsms90/hapi-auth-morning-challenge#readme"
+}
