@@ -5,7 +5,7 @@ Clone this repo & have a look at the files you already have.
 
 1. Install `hapi-auth-basic` and add register this plugin on your server.
 
-2. Inside `lib/validate.js`, write a function called `basicValidate`, which validates the user in your "database" (`database/users.js`).  
+2. Inside `lib/validate.js`, write a function called `basicValidate`, which validates the password of the users in your "database" (`database/users.js`), using Bcrypt.  
 Note: we are just using a JavaScript object for the purposes of this exercise
 
 3. Replace the comment in `server.js` with an authentication **strategy** that uses `hapi-auth-basic`. Remember, always use the [hapi docs](https://hapijs.com/api) to find out what you don't know.  
