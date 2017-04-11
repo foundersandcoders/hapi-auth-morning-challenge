@@ -10,7 +10,15 @@ var users = {
     username: 'jsms90',
     password: '$2a$10$XPk.7lupEzBSHxUg/IavSuIKmwmpBbW0NfCL8q0ZfHXUPXTtbhmNK',   // 'password'
     name: 'Jennifer Spencer',
-    id: '1234abcd'
+    id: '1234abcd',
+    permissions: ['admin', 'user']
+  },
+  sohilpandya: {
+    username: 'sohilpandya',
+    password: '$2a$10$XPk.7lupEzBSHxUg/IavSuIKmwmpBbW0NfCL8q0ZfHXUPXTtbhmNK',   // 'password'
+    name: 'Sohil Pandya',
+    id: 'n3wIDh3r3',
+    permissions: 'user'
   }
 };
 

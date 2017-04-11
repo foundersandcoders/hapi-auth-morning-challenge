@@ -1,7 +1,5 @@
-module.exports = {
-  method: 'GET',
-  path: '/',
-  handler: function (request, reply) {
-    reply('Hey');
-  }
-}
+module.exports = [
+  './login',
+  './home'
+]
+  .map(require);

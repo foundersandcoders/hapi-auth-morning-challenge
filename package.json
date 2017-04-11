@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "hapi": "^16.1.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
