@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "handlebars": "^4.0.6",
-    "hapi": "^16.1.1"
+    "hapi": "^16.1.1",
+    "hapi-auth-basic": "^4.2.0",
+    "vision": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

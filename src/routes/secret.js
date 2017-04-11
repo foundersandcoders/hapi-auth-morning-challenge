@@ -1,7 +1,12 @@
 module.exports = {
-  method: ['GET', 'POST'],
-  path: '/restricted',
-  handler: function (request, reply) {
-    reply.view('secret');
+  method: ["GET", "POST"],
+  path: "/restricted",
+  config: {
+    auth: {
+      scope: "admin",
+    },
+    handler: function (request, reply) {
+      reply.view("secret");
+    }
   }
-}
+};
